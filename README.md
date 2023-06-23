@@ -1,12 +1,15 @@
 # Welcome to My World
 
 ## Web preview
-![preview]<img width="943" alt="readme" src="https://github.com/RevoU-FSSE-2/week-1-fadli131/assets/109584701/affd1c40-5d30-49db-bed6-744cd0caafae">
+![preview]<img width="943" alt="readme" src="https://github.com/RevoU-FSSE-2/week-2-fadli131/assets/109584701/c047d8ab-46bc-4468-86b4-ddd1e723df9e">
 
 ## My first assignment at Revou fullstack bootcamp
-Website deployment: [Click here](https://dapper-sable-c60f63.netlify.app/)
+Website deployment: [Click here](https://creative-scone-9e7e6b.netlify.app/)
 ### Website content 
-- CSS File
-- Image File
-- HTML
-- Add basic javascript for button alert
+- Header
+  - Navbar
+- Main
+  - About
+  - Portofolio Section
+  - Form
+- Footer
