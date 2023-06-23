@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>Fadli Aryadinata</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="responsive.css" />
     <meta name="viewport" content ="width=device-width, initial-scale=1"/>
     <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
@@ -14,7 +15,26 @@
 
 <body>
 
-    <header id="home">
+    <nav id="home" class="navbar">
+        <div class="navbar-container">
+          <div class="navbar-logo">
+            <img src="image/feeding.png" alt="Logo">
+          </div>
+          <ul class="navbar-menu" id="nav">
+            <li><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+            <li><a class="smoothscroll" href="#portofolio">Portofolio</a></li>
+          </ul>
+          <div class="hamburger" onclick="toggleMenu(this)">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+
+     <!-- <header id="home">
+        <img src="feeding.png"/>
         <nav id="nav-wrap">
             <ul id="nav" class="nav">
                 <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
@@ -22,7 +42,7 @@
                 <li><a class="smoothscroll" href="#portofolio">Portofolio</a></li>
             </ul>
         </nav>
-    </header> 
+    </header>  -->
 
     <section id="about">
 
